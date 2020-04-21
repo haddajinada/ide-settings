@@ -138,4 +138,7 @@
   <module name="SuppressionCommentFilter">
     <property name="offCommentFormat" value="CHECKSTYLE\:OFF \([a-zA-Z].*\)"/>
   </module>
+  <module name="MethodCount">
+    <property name="maxTotal" value="30"/>
+  </module>
 </module>
